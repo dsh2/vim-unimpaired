@@ -2,6 +2,12 @@
 " Maintainer:   Tim Pope <http://tpo.pe/>
 " Version:      1.2
 " GetLatestVimScripts: 1590 1 :AutoInstall: unimpaired.vim
+"
+" TODO:
+" coC: cycle conceallevel
+" com: modifiable
+" co8: tabwidth
+" cof: foldcolumn
 
 if exists("g:loaded_unimpaired") || &cp || v:version < 700
   finish
