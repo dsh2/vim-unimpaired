@@ -1,4 +1,7 @@
 " unimpaired.vim - Pairs of handy bracket mappings
+
+" Mark long columns
+" match ErrorMsg '\%80v\+'
 " Maintainer:   Tim Pope <http://tpo.pe/>
 " Version:      1.2
 " GetLatestVimScripts: 1590 1 :AutoInstall: unimpaired.vim
@@ -8,6 +11,7 @@
 " com: modifiable
 " co8: tabwidth
 " cof: foldcolumn
+" coL: Mark long columns: match ErrorMsg '\%80v\+' 100 120 etc.
 
 if exists("g:loaded_unimpaired") || &cp || v:version < 700
   finish
